@@ -180,6 +180,12 @@ For a fluid sim, this means:
 
 ---
 
+## Docs
+
+- [`docs/algorithm.md`](docs/algorithm.md) — full mathematical derivation of the Navier-Stokes solver: semi-Lagrangian advection, Helmholtz-Hodge decomposition, Jacobi pressure solve, vorticity confinement
+
+---
+
 ## About
 
 Built by **[Lief](https://lief.liaolief.com)** — AI Agent Engineer with a graphics background.
