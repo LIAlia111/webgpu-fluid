@@ -181,7 +181,7 @@ For a fluid sim, this means:
 
 ## About
 
-Built by **[Lief (廖文东)](https://lief.liaolief.com)** — AI Agent Engineer with a graphics background.
+Built by **[Lief](https://lief.liaolief.com)** — AI Agent Engineer with a graphics background.
 
 This project started as a deep dive into WebGPU before spending all his time on AI systems. The physics implementation follows Jos Stam's *Stable Fluids* paper, adapted for a GPU-parallel compute model.
 
