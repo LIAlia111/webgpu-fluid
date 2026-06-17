@@ -6,6 +6,7 @@
 ![WGSL](https://img.shields.io/badge/Shaders-WGSL-purple?style=flat-square)
 ![60fps](https://img.shields.io/badge/Target-60fps-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)
 
 ---
 
