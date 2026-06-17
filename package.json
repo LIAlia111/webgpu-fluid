@@ -1,0 +1,29 @@
+{
+  "name": "webgpu-fluid",
+  "version": "1.0.0",
+  "description": "Real-time Navier-Stokes fluid simulation on the GPU — WebGPU + WGSL, zero dependencies",
+  "scripts": {
+    "dev": "npx serve . --listen 3000",
+    "start": "npx serve . --listen 3000"
+  },
+  "keywords": [
+    "webgpu",
+    "wgsl",
+    "fluid-simulation",
+    "navier-stokes",
+    "gpu",
+    "compute-shader",
+    "real-time",
+    "physics"
+  ],
+  "author": "Lief <lief.liaolief.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/LIAlia111/webgpu-fluid#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LIAlia111/webgpu-fluid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LIAlia111/webgpu-fluid/issues"
+  }
+}
