@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+  <title>WebGPU Fluid</title>
+  <style>
+    html, body { margin: 0; padding: 0; background: #000; overflow: hidden; }
+  </style>
+  <link rel="stylesheet" href="/webgpu-fluid/style.css">
+</head>
+<body>
+  <div id="loading-indicator">
+    <div class="loading-dot"></div>
+  </div>
+
+  <div id="unsupported-page" style="display:none">
+    <div class="unsupported-content">
+      <div class="unsupported-icon">≋</div>
+      <h1 class="unsupported-title">需要支持 WebGPU 的浏览器</h1>
+      <p class="unsupported-desc">
+        这个 Demo 使用 WebGPU 实时模拟流体效果，<br>当前浏览器暂不支持。
+      </p>
+      <div class="browser-card">
+        <p class="browser-card-title">推荐以下浏览器打开：</p>
+        <ul class="browser-list">
+          <li>
+            <span class="browser-name">Chrome / Edge 113+</span>
+            <span class="browser-platform">Android 或桌面端</span>
+          </li>
+          <li>
+            <span class="browser-name">Safari iOS 17+</span>
+            <span class="browser-platform">iPhone 12 及以上</span>
+          </li>
+        </ul>
+      </div>
+      <a href="https://developer.chrome.com/docs/web-platform/webgpu"
+         target="_blank" rel="noopener" class="webgpu-link">了解 WebGPU →</a>
+    </div>
+  </div>
+
+  <canvas id="gpu-canvas" style="display:none"></canvas>
+
+  <div id="hint-overlay">
+    <div class="hint-text">滑动屏幕感受流体</div>
+  </div>
+
+  <script type="module" src="/webgpu-fluid/src/main.js"></script>
+</body>
+</html>
